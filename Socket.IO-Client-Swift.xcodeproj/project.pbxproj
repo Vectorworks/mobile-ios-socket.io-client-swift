@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B2F65BA2265F5A700DA2559 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		572EF2191B51F16C00EEBB58 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EF21D1B51F16C00EEBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EF21E1B51F16C00EEBB58 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		572EF20D1B51F12F00EEBB58 = {
 			isa = PBXGroup;
 			children = (
+				4B2F65BA2265F5A700DA2559 /* .gitignore */,
 				6CA08A9B1D615C190061FD2A /* Frameworks */,
 				572EF21A1B51F16C00EEBB58 /* Products */,
 				572EF21B1B51F16C00EEBB58 /* SocketIO-iOS */,
