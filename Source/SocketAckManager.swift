@@ -34,8 +34,9 @@ public enum SocketAckStatus : String {
 private struct SocketAck : Hashable {
     let ack: Int
     var callback: AckCallback!
-    var hashValue: Int {
-        return ack.hashValue
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(ack.hashValue)
     }
 
     init(ack: Int) {
