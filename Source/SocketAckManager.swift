@@ -36,7 +36,7 @@ private struct SocketAck : Hashable {
     var callback: AckCallback!
     
     func hash(into hasher: inout Hasher) {
-        hasher.combine(ack.hashValue)
+        ack.hash(into: &hasher)
     }
 
     init(ack: Int) {
