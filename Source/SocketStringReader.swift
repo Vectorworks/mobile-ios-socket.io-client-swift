@@ -57,13 +57,13 @@ struct SocketStringReader {
     mutating func readUntilOccurence(of string: String) -> String {
         let substring = message[currentIndex...]
         
-        guard let foundIndex = substring.firstIndex(of:string.first!) else {
+        guard let foundIndex = substring.firstIndex(where: { $0 == string.first! }) else {
             currentIndex = message.endIndex
             
             return String(substring)
         }
         
-        advance(by: message.distance(from: message.startIndex, to: foundIndex) + 1)
+        advance(by: substring.distance(from: substring.startIndex, to: foundIndex) + 1)
         
         let resSubstring = String(substring[substring.startIndex..<foundIndex])
         print(resSubstring)
