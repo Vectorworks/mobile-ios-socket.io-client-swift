@@ -20,20 +20,6 @@
                ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572EF2231B51F16C00EEBB58"
-               BuildableName = "SocketIO-iOSTests.xctest"
-               BlueprintName = "SocketIO-iOSTests"
-               ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -52,16 +38,6 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572EF2231B51F16C00EEBB58"
-               BuildableName = "SocketIO-iOSTests.xctest"
-               BlueprintName = "SocketIO-iOSTests"
-               ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
